@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from statsmodels.stats.diagnostic import lilliefors
 
 # Parametry
-dfs = [i for i in range(1, 31, 5)] + [i for i in range(35, 101, 10)]  # stopnie swobody
+dfs = [i for i in range(1, 31, 1)] + [i for i in range(35, 101, 10)]  # stopnie swobody
 SampleSizes = [i for i in range(10, 101, 10)]  # rozmiary próbek
 simulations_number = 100  # liczba symulacji
 
