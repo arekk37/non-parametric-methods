@@ -12,8 +12,6 @@ simulations_number = 100  # liczba symulacji
 # Inicjalizacja wyników
 results = []
 
-# Inicjalizacja wyników
-results = []
 
 for mean in means:
     for std_dev1 in stds:
